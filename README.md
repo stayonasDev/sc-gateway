@@ -1,6 +1,6 @@
 # Spring Cloud Gate way
 
-'''bash
+```bash
 $ ./gradlew clean bootRun
 
 $ curl http://localhost:9000/hello
