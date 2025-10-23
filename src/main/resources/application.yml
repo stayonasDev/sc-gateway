@@ -48,6 +48,9 @@ spring:
             # '/api/uuu' 접두사를 제거하고 남은 경로를 전달합니다.
             - RewritePath=/api/users/(?<segment>.*), /${segment}
 
+          # http://localhost:9000/apt/users/hello?username=kim
+          # http://localhost:9001/hello?username=kim
+
 logging:
   level:
     # Spring Cloud Gateway의 라우팅, 필터 체인 관련 로그
