@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: only-apigateway-service 
+    name: sc-gateway 
   
   cloud:
     gateway:
